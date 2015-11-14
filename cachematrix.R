@@ -1,4 +1,4 @@
-## This is my personal copy
+## This is my personal copy that is edited
 
 ## Put comments here that give an overall description of what your
 ## functions do
