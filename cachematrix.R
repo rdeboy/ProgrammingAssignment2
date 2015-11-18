@@ -8,7 +8,11 @@
 ## that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
-     m <<- NULL
+     m <- NULL
+     set <- function(y) {
+          x <<- y
+          m <<- NULL
+     }
      get <- function() x
      setinverse <- function(inverted) m <<- inverted
      getinverse <- function() m
